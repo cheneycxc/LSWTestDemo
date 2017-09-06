@@ -10,5 +10,6 @@
 
 @interface LSWTestDemoClass : NSObject
 @property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *sex;
 - (void)setDefaultName;
 @end
