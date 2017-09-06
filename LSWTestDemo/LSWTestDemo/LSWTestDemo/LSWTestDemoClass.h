@@ -6,10 +6,11 @@
 //  Copyright © 2017年 Cheney. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface LSWTestDemoClass : NSObject
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *sex;
 - (void)setDefaultName;
+- (void)showEmessageOnView:(UIView *)view;
 @end

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CheneyTestDemo"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of CheneyTestDemo."
   s.homepage     = "https://github.com/cheneycxc/LSWTestDemo"
   s.license     = { :type => "MIT", :file => "LICENSE" }
@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/cheneycxc/LSWTestDemo.git", :tag =>  s.version.to_s }
   s.source_files  = 'LSWTestDemo','LSWTestDemo/LSWTestDemo/LSWTestDemo/*.{c,h,hh,m,mm}'
   s.public_header_files = "LSWTestDemo/**/*.h"
+  s.dependency "MBProgressHUD"
   s.requires_arc = true
 end
