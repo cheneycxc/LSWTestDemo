@@ -15,6 +15,7 @@
 		22CFA6951F5EA7DC00BA0F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CFA6931F5EA7DC00BA0F13 /* LaunchScreen.storyboard */; };
 		22CFA6A01F5EA7DC00BA0F13 /* LSWTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CFA69F1F5EA7DC00BA0F13 /* LSWTestDemoTests.m */; };
 		22CFA6AB1F5EA7DC00BA0F13 /* LSWTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CFA6AA1F5EA7DC00BA0F13 /* LSWTestDemoUITests.m */; };
+		22E464331F5F8D4600641766 /* LSWTestDemoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E464321F5F8D4600641766 /* LSWTestDemoClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		22CFA6A61F5EA7DC00BA0F13 /* LSWTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSWTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CFA6AA1F5EA7DC00BA0F13 /* LSWTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWTestDemoUITests.m; sourceTree = "<group>"; };
 		22CFA6AC1F5EA7DC00BA0F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E464311F5F8D4600641766 /* LSWTestDemoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWTestDemoClass.h; sourceTree = "<group>"; };
+		22E464321F5F8D4600641766 /* LSWTestDemoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWTestDemoClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		22CFA6841F5EA7DB00BA0F13 /* LSWTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				22E464301F5F8D3200641766 /* LSWTestDemo */,
 				22CFA6881F5EA7DB00BA0F13 /* AppDelegate.h */,
 				22CFA6891F5EA7DB00BA0F13 /* AppDelegate.m */,
 				22CFA68B1F5EA7DB00BA0F13 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				22CFA6AC1F5EA7DC00BA0F13 /* Info.plist */,
 			);
 			path = LSWTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		22E464301F5F8D3200641766 /* LSWTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22E464311F5F8D4600641766 /* LSWTestDemoClass.h */,
+				22E464321F5F8D4600641766 /* LSWTestDemoClass.m */,
+			);
+			path = LSWTestDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				22CFA68D1F5EA7DB00BA0F13 /* ViewController.m in Sources */,
 				22CFA68A1F5EA7DB00BA0F13 /* AppDelegate.m in Sources */,
+				22E464331F5F8D4600641766 /* LSWTestDemoClass.m in Sources */,
 				22CFA6871F5EA7DB00BA0F13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +523,7 @@
 				22CFA6B11F5EA7DC00BA0F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22CFA6B21F5EA7DC00BA0F13 /* Build configuration list for PBXNativeTarget "LSWTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +532,7 @@
 				22CFA6B41F5EA7DC00BA0F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22CFA6B51F5EA7DC00BA0F13 /* Build configuration list for PBXNativeTarget "LSWTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +541,7 @@
 				22CFA6B71F5EA7DC00BA0F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
